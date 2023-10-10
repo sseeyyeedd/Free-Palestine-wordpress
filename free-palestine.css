@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Freedom;
+    src: url(FREEDOM.ttf);
+  }
+.free-palestine-flag {
+    width: 200px;
+    height: 100px;
+    left:-190px;
+top:45%;
+    position:fixed;
+    overflow: hidden;
+    transition:1s; 
+}
+
+.free-palestine-stripe {
+    width: 100%;
+    height: 33.33%;
+    text-align: right;
+    font-family: Freedom;
+    padding-right: 10px;
+    font-size: 18px;
+    
+}
+
+.free-palestine-black-stripe {
+    background-color: #000;
+}
+
+.free-palestine-white-stripe {
+    background-color: #fff;
+    padding-top: 3%;
+    height: 29%!important;
+}
+
+.free-palestine-green-stripe {
+    background-color: #007A4D;
+}
+
+.free-palestine-red-triangle {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 65px solid #CE1126; /* Red */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.free-palestine-flag:hover {
+    left:0;
+}
